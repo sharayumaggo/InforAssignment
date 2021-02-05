@@ -16,12 +16,13 @@
             //formData.append('csrfmiddlewaretoken', CSRF_TOKEN); /*# django security*/
 
             $.ajax({
-                url: 'FileUpload/upload',
+                url: '../FileUpload/upload',
                 type: 'POST',
                 dataType: "json",
                 data: formData,
                 processData: false,
                 contentType: false,
+                cache:false,
                 success: function (data) {
 
                     var tr;

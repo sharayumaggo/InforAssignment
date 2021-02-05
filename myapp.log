@@ -7,3 +7,30 @@
 2021-02-05 13:20:45,539 [6] INFO Infor_Assignment.Controllers.FileUploadController - entering application, fetch list!
 2021-02-05 13:20:45,548 [6] INFO Infor_Assignment.Controllers.FileUploadController - Reading File!
 2021-02-05 13:20:45,566 [6] INFO Infor_Assignment.Controllers.FileUploadController - Book List added to datatable!
+2021-02-05 14:25:21,471 [6] INFO Infor_Assignment.Controllers.FileUploadController - entering application, fetch list!
+2021-02-05 14:25:21,480 [6] INFO Infor_Assignment.Controllers.FileUploadController - Reading File!
+2021-02-05 14:25:21,502 [6] INFO Infor_Assignment.Controllers.FileUploadController - Book List added to datatable!
+2021-02-05 14:26:22,478 [7] INFO Infor_Assignment.Controllers.FileUploadController - entering application, fetch list!
+2021-02-05 14:26:22,480 [7] INFO Infor_Assignment.Controllers.FileUploadController - Reading File!
+2021-02-05 14:26:22,481 [7] INFO Infor_Assignment.Controllers.FileUploadController - Book List added to datatable!
+2021-02-05 14:36:15,723 [5] INFO Infor_Assignment.Controllers.FileUploadController - entering application, fetch list!
+2021-02-05 14:36:15,733 [5] INFO Infor_Assignment.Controllers.FileUploadController - Reading File!
+2021-02-05 14:36:15,758 [5] INFO Infor_Assignment.Controllers.FileUploadController - Book List added to datatable!
+2021-02-05 14:36:21,777 [5] INFO Infor_Assignment.Controllers.FileUploadController - entering application, fetch list!
+2021-02-05 14:36:21,779 [5] INFO Infor_Assignment.Controllers.FileUploadController - Reading File!
+2021-02-05 14:36:21,779 [5] INFO Infor_Assignment.Controllers.FileUploadController - Book List added to datatable!
+2021-02-05 14:36:21,960 [6] INFO Infor_Assignment.Controllers.FileUploadController - entering application, fetch list!
+2021-02-05 14:36:21,962 [6] INFO Infor_Assignment.Controllers.FileUploadController - Reading File!
+2021-02-05 14:36:21,963 [6] INFO Infor_Assignment.Controllers.FileUploadController - Book List added to datatable!
+2021-02-05 14:36:22,774 [7] INFO Infor_Assignment.Controllers.FileUploadController - entering application, fetch list!
+2021-02-05 14:36:22,777 [7] INFO Infor_Assignment.Controllers.FileUploadController - Reading File!
+2021-02-05 14:36:22,777 [7] INFO Infor_Assignment.Controllers.FileUploadController - Book List added to datatable!
+2021-02-05 14:36:22,871 [5] INFO Infor_Assignment.Controllers.FileUploadController - entering application, fetch list!
+2021-02-05 14:36:22,874 [5] INFO Infor_Assignment.Controllers.FileUploadController - Reading File!
+2021-02-05 14:36:22,875 [5] INFO Infor_Assignment.Controllers.FileUploadController - Book List added to datatable!
+2021-02-05 14:36:23,066 [6] INFO Infor_Assignment.Controllers.FileUploadController - entering application, fetch list!
+2021-02-05 14:36:23,069 [6] INFO Infor_Assignment.Controllers.FileUploadController - Reading File!
+2021-02-05 14:36:23,069 [6] INFO Infor_Assignment.Controllers.FileUploadController - Book List added to datatable!
+2021-02-05 14:36:23,248 [10] INFO Infor_Assignment.Controllers.FileUploadController - entering application, fetch list!
+2021-02-05 14:36:23,250 [10] INFO Infor_Assignment.Controllers.FileUploadController - Reading File!
+2021-02-05 14:36:23,251 [10] INFO Infor_Assignment.Controllers.FileUploadController - Book List added to datatable!
