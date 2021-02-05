@@ -51,6 +51,7 @@ C:\Users\varun\source\repos\Infor_Assignment\bin\roslyn\vbc.rsp
 C:\Users\varun\source\repos\Infor_Assignment\bin\roslyn\VBCSCompiler.exe
 C:\Users\varun\source\repos\Infor_Assignment\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\varun\source\repos\Infor_Assignment\bin\Antlr3.Runtime.dll
+C:\Users\varun\source\repos\Infor_Assignment\bin\log4net.dll
 C:\Users\varun\source\repos\Infor_Assignment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\varun\source\repos\Infor_Assignment\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\varun\source\repos\Infor_Assignment\bin\Newtonsoft.Json.dll
@@ -62,6 +63,7 @@ C:\Users\varun\source\repos\Infor_Assignment\bin\System.Web.WebPages.Deployment.
 C:\Users\varun\source\repos\Infor_Assignment\bin\System.Web.WebPages.dll
 C:\Users\varun\source\repos\Infor_Assignment\bin\System.Web.WebPages.Razor.dll
 C:\Users\varun\source\repos\Infor_Assignment\bin\WebGrease.dll
+C:\Users\varun\source\repos\Infor_Assignment\bin\log4net.xml
 C:\Users\varun\source\repos\Infor_Assignment\bin\System.Web.Helpers.xml
 C:\Users\varun\source\repos\Infor_Assignment\bin\System.Web.Mvc.xml
 C:\Users\varun\source\repos\Infor_Assignment\bin\System.Web.Optimization.xml
@@ -76,5 +78,3 @@ C:\Users\varun\source\repos\Infor_Assignment\obj\Debug\Infor_Assignment.csproj.C
 C:\Users\varun\source\repos\Infor_Assignment\obj\Debug\Infor_Assignment.csproj.CopyComplete
 C:\Users\varun\source\repos\Infor_Assignment\obj\Debug\Infor_Assignment.dll
 C:\Users\varun\source\repos\Infor_Assignment\obj\Debug\Infor_Assignment.pdb
-C:\Users\varun\source\repos\Infor_Assignment\bin\log4net.dll
-C:\Users\varun\source\repos\Infor_Assignment\bin\log4net.xml
