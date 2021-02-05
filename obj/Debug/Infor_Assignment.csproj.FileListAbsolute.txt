@@ -72,7 +72,6 @@ C:\Users\varun\source\repos\Infor_Assignment\bin\System.Web.WebPages.Razor.xml
 C:\Users\varun\source\repos\Infor_Assignment\bin\Newtonsoft.Json.xml
 C:\Users\varun\source\repos\Infor_Assignment\bin\Antlr3.Runtime.pdb
 C:\Users\varun\source\repos\Infor_Assignment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\varun\source\repos\Infor_Assignment\obj\Debug\Infor_Assignment.csprojAssemblyReference.cache
 C:\Users\varun\source\repos\Infor_Assignment\obj\Debug\Infor_Assignment.csproj.CoreCompileInputs.cache
 C:\Users\varun\source\repos\Infor_Assignment\obj\Debug\Infor_Assignment.csproj.CopyComplete
 C:\Users\varun\source\repos\Infor_Assignment\obj\Debug\Infor_Assignment.dll

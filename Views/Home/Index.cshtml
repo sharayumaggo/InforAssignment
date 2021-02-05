@@ -2,30 +2,104 @@
     ViewBag.Title = "Home Page";
 }
 
+
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+
+        $("#btnRead").click(function () {
+            $("#tblResult td").remove();
+            var formData = new FormData();
+            formData.append('file', $('#file')[0].files[0]);
+            //formData.append('csrfmiddlewaretoken', CSRF_TOKEN); /*# django security*/
+
+            $.ajax({
+                url: 'FileUpload/upload',
+                type: 'POST',
+                dataType: "json",
+                data: formData,
+                processData: false,
+                contentType: false,
+                success: function (data) {
+
+                    var tr;
+                    //Append each row to html table
+                    for (var i = 0; i < data.length; i++) {
+                        tr = $('<tbody/>');
+                        tr.append("<tr>");
+                        tr.append("<td>" + data[i].Name + "</td>");
+                        tr.append("<td>" + data[i].ISBN + "</td>");
+                        tr.append("<td>" + data[i].Author + "</td>");
+                        tr.append("</tr>");
+
+                        $("#tblResult").append(tr);
+                    }
+                }
+            })
+
+        });
+    });
+</script>
+
 <div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+    <h1>Read List of Books from Text File</h1>
+    <br />
+
+    <html xmlns="http://www.w3.org/1999/xhtml">
+    <head runat="server">
+        <style type="text/css">
+            .btn {
+                width: 100px;
+                height: 50px;
+                background: #00BCD4;
+                border-style: solid;
+                border-color: white;
+                color: white;
+            }
+        </style>
+    </head>
+    <body style="width: 1000px; height: 300px; font-family: Arial; margin-left: 200px">
+        <br />
+        <table>
+            
+            <tr>
+                <td style="width: 200px;">
+                    <b style="color: #FF5722">Choose Text File:</b>
+                </td>
+                <td>
+                    <input type="file" name="file" id="file" />
+                </td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td colspan="2" style="padding-top: 30px">
+                    <input type="button" class="btn" value="Read Text" id="btnRead" />
+                </td>
+            </tr>
+        </table>
+        <br />
+        <br />
+        <br />
+        <div>
+            <b style="color: #FF5722">Result: </b>
+            <br />
+            <br />
+            <table class="table table-bordered table-condensed table-hover table-striped" id="tblResult">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>ISBN</th>
+                        <th>Author</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>
 </div>
 
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
-    </div>
-</div>
